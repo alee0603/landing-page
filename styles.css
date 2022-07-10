@@ -9,3 +9,10 @@ body {
     background: #1F2937;
     color: white;
 }
+
+.footer {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
