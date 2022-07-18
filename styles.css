@@ -8,7 +8,7 @@ body {
 .footer {
     background: #1F2937;
     color: white;
-    padding: 20px 100px;
+    padding: 20px 150px;
     font-size: 12px;
 }
 
@@ -66,12 +66,14 @@ a {
 button {
     padding: 8px 16px;
     border-radius: 8px;
+    border-style: solid;
   }
 
 .sign-up {
     background: #3882F6;
     color: white;
-    border: 0px;
+    width: 150px;
+    border-color: #3882F6;
 }
 
 .image {
@@ -95,7 +97,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding: 60px 100px;
+    padding: 60px 200px;
     gap: 20px;
 }
 
@@ -108,6 +110,28 @@ button {
 .quote-person {
     font-weight:bold;
     font-size: 24px;
+}
+
+.sign-up-section {
+    background: white;
+    padding: 60px 150px;
+}
+
+.blue-container {
+    padding: 60px 100px;
+    border-radius: 8px;
+    background: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue-container .sign-up {
+    border-color: white;
+}
+
+.action {
+    font-weight: bold;
 }
 
 .footer {
