@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: roboto, sans-serif;
+    font-size: 12px;
 }
 
 .header-sec,
@@ -90,6 +91,48 @@ button {
     background: white;
     display: flex;
     flex: 1;
+    flex-direction: column;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 200px 150px;
+}
+
+.info-header {
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.info-container {
+    display: flex;
+    gap: 80px;
+}
+
+.info-sub {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.info-sub .text {
+    text-align: center;
+}
+
+.info-image {
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: thick;
+    background: white;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
 }
 
 .quote-section {
@@ -113,7 +156,6 @@ button {
 }
 
 .sign-up-section {
-    background: white;
     padding: 60px 150px;
 }
 
